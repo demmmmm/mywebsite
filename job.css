@@ -1,0 +1,12 @@
+h1{text-align: center;
+    font-family: "Audiowide", sans-serif;
+    text-decoration-color: aqua;
+    font-size: 70px;
+    }
+    h2{text-align: center;}
+    p{text-align: center;}
+    
+    body {background-image: url("bg1.jpg");
+    height:100%;
+    background-size: cover;
+    background-position: center;}

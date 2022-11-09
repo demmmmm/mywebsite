@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="food.css">
+<a href="home.html"></a>
+<a href="food.html"></a>
+<a href="hobbies.html"></a>
+<a href="job.html"></a>
+<style>
+.grid-container {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+;}
+
+.grid-item {
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+<style>
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #af8f8f;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: rgb(10, 10, 10);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #6d3b3b;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<style>
+body{
+    font-family: "Audiowide", sans-serif;
+}
+</style>
+<style>
+  .simple-shadow{
+  text-shadow: 1px 2px 2px rgb(255, 255, 255);
+  }
+  </style>
+</head>
+<body>
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="food.html">Favorite Food</a></li>
+  <li><a class="active" href="place.html">Favorite Place</a></li>
+  <li><a href="hobbies.html">My hobbies</a></li>
+  <li><a href="job.html">My Dream Job</a></li>
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+    <h1 class="simple-shadow"> My Favorite Place</h1>
+    <p text-align="justify"
+        style="background-color:rgb(151, 116, 116);
+        line-height: 2;
+        border-radius:3px;
+        font-size:17px;
+        padding:15px;
+        margin:1px;">I'm really not a travel person but here are some favorite places of mine. ♥</p>
+    <div class="grid-container">
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"><img src= "home.jpg" alt="pic" style="width:250px;height:272px;"></div>
+    <div class="grid-item"><img src= "home2.jpg" alt="pic" style="width:250px;height:272px;">
+    </div>
+    <div class="grid-item">
+        <img src= "home4.jpg" alt="pic" style="width:250px;height:272px;"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"><p text-align="justify"
+        style="background-color:rgb(151, 116, 116);
+        line-height: 2;
+        border-radius:3px;
+        font-size:17px;
+        padding:15px;
+        margin:1px;">Here are some places that my dad and I travelled to. Ever since we got our motorcycle he became my travel buddy. ♥</p></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"><img src="table.jpg" style="width: 300px; height: 380px"></div>
+    <div class="grid-item"><p text-align="justify"
+        style="background-color:rgb(151, 116, 116);
+        line-height: 2;
+        border-radius:3px;
+        font-size:17px;
+        padding:15px;
+        margin:1px;">As I said I'm really not a travel person so usually this is the place that I look forward to go home to. To relax, to play and drink coffee nothing beats the comfort than this place. ♥</p></div>
+    
+
+        
+    </div>
+    
+</body>
+</html>
+
+
